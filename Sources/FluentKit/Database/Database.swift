@@ -90,4 +90,5 @@ public protocol DatabaseError {
     var isSyntaxError: Bool { get }
     var isConstraintFailure: Bool { get }
     var isConnectionClosed: Bool { get }
+    var isUniqueViolation: Bool { get }
 }
